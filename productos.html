@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panadería Rústica El Horno Antiguo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo Panadería Rústica" class="logo-img">
+                </a>
+                <h1>Panadería Rústica El Horno Antiguo</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li class="theme-toggle-container">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1608198093002-ad4e005484ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
+        <div class="hero-content">
+            <h2>Nuestros Productos</h2>
+            <p>Descubre nuestra amplia variedad de panes, bollería y pasteles artesanales</p>
+        </div>
+    </section>
+
+    
+    <section class="container">
+        <div class="product-category">
+            <h2 class="section-title">Panes Tradicionales</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Pan de masa madre">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pan de Masa Madre</h3>
+                        <p>Elaborado con fermentación natural durante 24 horas</p>
+                        <span class="price">€4.50</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1598373182133-52452f7691ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Pan de centeno">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pan de Centeno</h3>
+                        <p>Intenso sabor y textura densa, ideal para acompañar</p>
+                        <span class="price">€4.00</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Pan de pueblo">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pan de Pueblo</h3>
+                        <p>Corteza crujiente y miga esponjosa, como el de antes</p>
+                        <span class="price">€3.50</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-category">
+            <h2 class="section-title">Bollería Artesanal</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1623334044303-241021148842?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Croissants">
+                    </div>
+                    <div class="product-info">
+                        <h3>Croissants</h3>
+                        <p>Ligeros y hojaldrados, perfectos para el desayuno</p>
+                        <span class="price">€1.80</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://i.ytimg.com/vi/FK4i5NehaaA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDAimvZxPGMT-hYVlewj-VyeJAWVg" alt="Napolitanas de chocolate">
+                    </div>
+                    <div class="product-info">
+                        <h3>Napolitanas</h3>
+                        <p>Rellenas de chocolate o crema, irresistibles</p>
+                        <span class="price">€1.60</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://tahonajardines.com/wp-content/uploads/sencillas-palmeritas.jpg" alt="Palmeras de hojaldre">
+                    </div>
+                    <div class="product-info">
+                        <h3>Palmeras</h3>
+                        <p>Crujientes y dulces, el capricho perfecto</p>
+                        <span class="price">€1.40</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-category">
+            <h2 class="section-title">Pastelería Tradicional</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://imag.bonviveur.com/foto-de-la-tarta-de-santiago.jpg" alt="Tarta de Santiago">
+                    </div>
+                    <div class="product-info">
+                        <h3>Tarta de Santiago</h3>
+                        <p>Clásica tarta de almendra, sin gluten</p>
+                        <span class="price">€18.00</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://www.eladerezo.com/wp-content/uploads/2010/01/tarta-de-manzana-casera.jpg" alt="Pastel de manzana">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pastel de Manzana</h3>
+                        <p>Delicioso pastel con manzanas frescas y canela</p>
+                        <span class="price">€15.00</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://www.bekiacocina.com/images/cocina/0000/322-h.jpg" alt="Magdalenas caseras">
+                    </div>
+                    <div class="product-info">
+                        <h3>Magdalenas Caseras</h3>
+                        <p>Esponjosas y con el toque justo de limón</p>
+                        <span class="price">€1.20</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Panadería Rústica</h3>
+                    <p>El sabor auténtico de la tradición panadera desde 1985.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li>Calle del Horno, 123</li>
+                        <li>28012 Madrid</li>
+                        <li>Tel: 91 123 45 67</li>
+                        <li>info@panaderiarustica.com</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Horario</h3>
+                    <ul>
+                        <li>Lunes a Viernes: 7:00 - 20:00</li>
+                        <li>Sábados: 7:00 - 15:00</li>
+                        <li>Domingos: 8:00 - 14:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Panadería Rústica El Horno Antiguo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/theme.js"></script>
+</body>
+</html>

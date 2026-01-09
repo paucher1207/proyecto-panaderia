@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Panadería Rústica El Horno Antiguo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo Panadería Rústica" class="logo-img">
+                </a>  
+                <h1>Panadería Rústica El Horno Antiguo</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li class="theme-toggle-container">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');">
+        <div class="hero-content">
+            <h2>Contacta con Nosotros</h2>
+            <p>Estamos aquí para ayudarte y resolver cualquier duda</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Información de Contacto</h3>
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <div class="contact-details">
+                        <h4>Dirección</h4>
+                        <p>Calle del Horno, 123, 28012 Madrid</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <span class="contact-icon">📞</span>
+                    <div class="contact-details">
+                        <h4>Teléfono</h4>
+                        <p>91 123 45 67</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <span class="contact-icon">✉️</span>
+                    <div class="contact-details">
+                        <h4>Email</h4>
+                        <p>info@panaderiarustica.com</p>
+                    </div>
+                </div>
+                
+                <h3>Horario de Atención</h3>
+                <div class="contact-item">
+                    <span class="contact-icon">🕐</span>
+                    <div class="contact-details">
+                        <h4>Lunes a Viernes</h4>
+                        <p>7:00 - 20:00</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <span class="contact-icon">🕐</span>
+                    <div class="contact-details">
+                        <h4>Sábados</h4>
+                        <p>7:00 - 15:00</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <span class="contact-icon">🕐</span>
+                    <div class="contact-details">
+                        <h4>Domingos</h4>
+                        <p>8:00 - 14:00</p>
+                    </div>
+                </div>
+                
+                <h3>Síguenos en Redes Sociales</h3>
+                <p class="social-description">Mantente al día de nuestras novedades y productos especiales</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="Facebook">
+                        <img src="img/facebook.png" alt="Facebook" class="social-logo">
+                        <span class="social-text">Facebook</span>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        <img src="img/insta.png" alt="Instagram" class="social-logo">
+                        <span class="social-text">Instagram</span>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Twitter">
+                        <img src="img/X.png" alt="X" class="social-logo">
+                        <span class="social-text">X</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Envíanos un Mensaje</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono (opcional):</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="+34 123 456 789">
+                    </div>
+                    <div class="form-group">
+                        <label for="asunto">Asunto del mensaje:</label>
+                        <input type="text" id="asunto" name="asunto" placeholder="Ej: Consulta sobre pedidos" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Tu mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí tu mensaje..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.454720893175!2d-3.703390384603964!3d40.41999697936481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42287e0a1e37c7%3A0xd911e3f5e0f9b9c8!2sPuerta%20del%20Sol%2C%20Madrid%2C%20Espa%C3%B1a!5e0!3m2!1ses!2sus!4v1633456789012!5m2!1ses!2sus" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+  
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Panadería Rústica</h3>
+                    <p>El sabor auténtico de la tradición panadera desde 1985.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="quienes-somos.html">Quiénes Somos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li>Calle del Horno, 123</li>
+                        <li>28012 Madrid</li>
+                        <li>Tel: 91 123 45 67</li>
+                        <li>info@panaderiarustica.com</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Horario</h3>
+                    <ul>
+                        <li>Lunes a Viernes: 7:00 - 20:00</li>
+                        <li>Sábados: 7:00 - 15:00</li>
+                        <li>Domingos: 8:00 - 14:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Panadería Rústica El Horno Antiguo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/theme.js"></script>
+</body>
+</html>
